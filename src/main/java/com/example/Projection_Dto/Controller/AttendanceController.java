@@ -39,4 +39,11 @@ public class AttendanceController {
     public AttenndanceDto findByName(@PathVariable String name){
         return arepo.getByName(name);
     }
+
+
+//    for searching by std
+//    @GetMapping("/std/{std}")
+//    public AttenndanceDto findByStd(@PathVariable int std){
+//        return arepo.getByStd(std);
+//    }
 }
