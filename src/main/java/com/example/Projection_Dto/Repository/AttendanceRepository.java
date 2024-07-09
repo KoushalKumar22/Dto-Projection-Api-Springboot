@@ -15,4 +15,11 @@ public interface AttendanceRepository extends JpaRepository<Attendance,Integer> 
 
     @Query("select new com.example.Projection_Dto.DTO.AttenndanceDto(t.id, t.name) from Attendance t where t.id =?1")
     AttenndanceDto getById(int id);
+
+
+    //to search by standard;
+
+//    @Query("select new com.example.Projection_Dto.DTO.AttenndanceDto(t.id, t.name) from Attendance t where t.std = :std")
+//    AttenndanceDto getByStd(int std);
+
 }
