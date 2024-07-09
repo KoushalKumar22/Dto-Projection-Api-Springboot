@@ -13,7 +13,6 @@ public class Attendance {
     int std;
     int rollno;
 
-
     public int getId() {
         return id;
     }
