@@ -28,8 +28,8 @@ This repository contains a Spring Boot application that demonstrates the use of 
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/KoushalKumar22/Dto-Projection-Api-Springboot.git)
+   cd Dto-Projection-Api-Springboot
 2. Build the project:
    ```sh
      mvn clean install
